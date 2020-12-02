@@ -1,0 +1,9 @@
+.nav-wrapper ul > li:hover {
+    transform: scale(1.5);
+}
+
+.section-search input{
+    padding: 4px !important;
+    width: 90% !important;
+    border: #f4f4f4 3px solid !important;
+}
