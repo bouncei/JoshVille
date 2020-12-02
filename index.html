@@ -218,14 +218,14 @@
      </div>
 
      <!-- section: Follow -->
-     <section class="section sectiom-follow black white-text center">
+     <section class="section section-follow black white-text center">
          <div class="container">
              <div class="row">
                  <div class="col s12">
                      <h4>Follow JoshVille</h4>
                      <p>Follow us on social media for special offers</p>
                      <a href="#" class="white-text">
-                         <i class="fab fa-facebook fa-4x"></i>
+                         <i class="fab fa-github fa-4x"></i>
                      </a>
 
                      <a href="#" class="white-text">
@@ -235,7 +235,11 @@
                     <a href="#" class="white-text">
                         <i class="fab fa-twitter fa-4x"></i>
                     </a>
-                    
+
+                    <a href="#" class="white-text">
+                        <i class="fab fa-facebook fa-4x"></i>
+                    </a>
+
                  </div>
              </div>
          </div>
@@ -243,6 +247,57 @@
 
      <!-- Section: Gallery -->
      <section id="gallery" class="section section-gallery scrollspy">
+         <div class="container">
+             <h4 class="center">
+                 <span class="grey-text ligthen-1">Photo</span> Gallery
+             </h4>
+             <div class="row">
+                <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?beach" alt="">
+                  </div>
+                  <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?travel" alt="">
+                  </div>
+                  <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?nature" alt="">
+                  </div>
+                  <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?mountain" alt="">
+                  </div>
+                </div>
+          
+                <div class="row">
+                  <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?beaches" alt="">
+                  </div>
+                  <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?traveling" alt="">
+                  </div>
+                  <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?bridge" alt="">
+                  </div>
+                  <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?boat" alt="">
+                  </div>
+                </div>
+          
+                <div class="row">
+                  <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?ocean" alt="">
+                  </div>
+                  <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?building" alt="">
+                  </div>
+                  <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?trees" alt="">
+                  </div>
+                  <div class="col s12 m3">
+                    <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?cruise" alt="">
+                  </div>
+                </div>
+
+             </div>
+         </div>
          
      </section>
 
@@ -282,6 +337,10 @@
             });
 
         });
+
+        // Materialboxed
+        const elem = document.querySelectorAll('.materialboxed');
+        M.Materialboxed.init(elem, {}); 
    
 
     </script>
